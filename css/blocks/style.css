@@ -1,0 +1,93 @@
+@import "fonts";
+
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Geometria',  sans-serif;
+}
+
+*,
+*:before,
+*:after{
+   box-sizing: border-box;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+
+ul {
+   margin: 0;
+   list-style-type: none;
+   padding: 0;
+
+}
+
+li {
+   list-style: none;
+}
+
+body a:hover {
+   text-decoration: none;
+   color: inherit;
+}
+
+button{
+   outline: none;
+   border:none;
+   background: transparent;
+   cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5{
+   margin: 0;
+   font-family: 'Geometria', sans-serif;
+}
+
+address{
+   font-style: normal;
+}
+
+i {
+   font-style: normal;
+}
+
+
+.invisible {
+   display: none !important;
+}
+
+.container{
+   max-width: 1220px;  /* ширина контента+ падинги */
+   margin-right: auto;
+   margin-left: auto;
+   padding: 0 15px;
+}
+
+@media(max-width: 1200px) {
+   .container{
+      max-width: 970px;
+   }
+
+}
+
+@media(max-width: 992px) {
+   .container{
+      max-width: 750px;
+   }
+   
+}
+
+@media(max-width: 767px) {
+   .container{
+      max-width: none;
+   }
+   
+}
+
+
+
+
+

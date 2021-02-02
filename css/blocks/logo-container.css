@@ -1,0 +1,22 @@
+.logo-container {
+    width: 232px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-container__img {
+    margin-right: 16px;
+
+}
+
+.logo-container__company-name {
+    font-size: 16px;
+    color: rgb(40, 65, 87);
+    text-transform: uppercase;
+    line-height: 1.188;
+
+}
+
+.logo-container__company-name-span {
+    font-weight: bold;
+}

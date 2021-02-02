@@ -1,0 +1,33 @@
+.section-heading {
+   width: 835px;
+   margin-right: auto;
+   margin-left: auto;
+   font-size: calc(21px + 9 * ((100vw - 320px) / (1920 - 320)));
+   color: rgb(40, 65, 87);
+   font-weight: bold;
+   line-height: 1.2;
+   text-align: center;
+}
+
+
+@media(max-width: 992px) {
+   .section-heading {
+      width: 92%;
+   }
+
+   .individual-projects__info-text {
+      margin-bottom: 26px;
+   }
+
+   .individual-projects__second-slider {
+      margin-bottom: 31px;
+   }
+}
+
+@media(max-width: 767px) {
+   .section-heading {
+      width: 100%;
+   }
+
+   
+}

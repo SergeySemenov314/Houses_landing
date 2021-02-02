@@ -1,0 +1,49 @@
+.modal-gallery{
+    height: 95vh;
+    width: 80vw;
+    padding: 1%;
+    border-radius: 15px;
+    box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+
+}
+
+.modal-gallery__img-wrapper {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+
+.modal-gallery__img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+
+}
+
+@media(max-width: 1200px) {
+    .modal-gallery {
+        height: 80vh;
+        width: 93vw;
+    }
+}
+
+
+@media(max-width: 992px) {
+    .modal-gallery {
+        height: 52vh;
+        width: 93vw;
+    }
+}
+
+
+@media(max-width: 767px) {
+    .modal-gallery {
+        padding: 2%;
+    }
+}

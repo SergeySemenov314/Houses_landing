@@ -1,0 +1,151 @@
+.header-bg{
+   background-color: #fff;
+   position: fixed;
+   z-index: 50;
+   right: 0;
+	left: 0;
+   width: 100%;
+   box-shadow: -2px 19px 19px -25px rgba(0, 0, 0, 0.75);
+}
+
+.header {
+   /* width: 1180px; */
+   display: flex;
+   align-items: center;
+   padding: 10px 0;
+}
+.header__logo-container {
+   margin-right: 303px;
+}
+
+.header__schedule {
+   width: 132px;
+   padding-right: 39px;
+   position: relative;
+   margin-right: 155px;
+   font-size: 12px;
+   font-family: "Geometria";
+   color: rgb(40, 65, 87);
+   line-height: 1.583;
+   text-align: right;
+}
+
+.header__schedule:after{
+   position: absolute;
+   top: 50%;
+   right: 0;
+   transform: translateY(-50%);
+   font-family: 'fontello';
+   content: '\e800';
+   font-size: 20px;
+   color:#fa322a;
+
+
+}
+    
+
+.header__schedule-span {
+   font-weight: bold;
+}
+.header__order-call-wrapper {
+   width: 350px;
+   display: flex;
+   align-items:center;
+}
+.header__order-call {
+   font-size: 12px;
+   color: rgb(40, 65, 87);
+   line-height: 1.583;
+   margin-right: 25px;
+
+    
+}
+.header__order-call-link {
+   font-size: 15px;
+   color: rgb(40, 65, 87);
+   font-weight: bold;
+   line-height: 1.267;
+    
+}
+
+
+.header__button {
+   font-size: 12px;
+}
+
+
+.button:hover{
+   cursor: pointer;
+   color: rgb(255, 255, 255);
+
+}
+
+@media(max-width: 1200px) {
+   .header__logo-container {
+      margin-right: 129px;
+   }
+
+   .header__schedule {
+      margin-right: 106px;
+   }
+
+   .header__order-call-wrapper {
+      width: 342px;
+   }
+
+ 
+
+
+}
+
+@media(max-width: 992px) {
+   .header__logo-container {
+      margin-right: 28px;
+   }
+
+   .header__schedule {
+      margin-right: 46px;
+   }
+
+   .header__order-call-wrapper {
+      width: 297px;
+   }
+
+   
+}
+
+@media(max-width: 767px) {
+
+   .header{
+      justify-content: space-between;
+      padding: 7px 0;
+   }
+
+   .header__logo-container {
+      margin-right: 24px;
+   }
+
+   .logo-container__img{
+      width: 69px;
+   }
+
+   .logo-container__company-name{
+      font-size: 13px;
+   }
+
+   .header__schedule {
+      display: none;
+   }
+
+   .header__order-call{
+      display: none;
+   }
+
+   .header__order-call-wrapper {
+      width: auto;
+   }
+
+   
+}
+
+
